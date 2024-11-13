@@ -1,0 +1,18 @@
+/*Documento css*/
+
+body { background-color: rgb(192, 221, 205);
+    font-family: "Manrope", sans-serif; }
+
+h1, h3 { color: rgb(41, 138, 117); 
+    font-size: 2em; 
+    text-align: center; 
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline; }
+
+h2, h4 { color: rgb(41, 106, 138); }
+
+ body div p small { color: blueviolet;
+                    background-color: black; }
+
+div p { line-height: 1.5; }
