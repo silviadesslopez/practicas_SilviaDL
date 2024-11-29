@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.photo {
+
+    margin-right: 20px;
+}
+
+.photo img {
+    width: 120px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.info {
+    flex-grow: 1;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #8c00ff;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #8c00ff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.abot, .education, .job,  {
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.skills li {
+    background: #8c00ff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+a {
+    color: #8c00ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

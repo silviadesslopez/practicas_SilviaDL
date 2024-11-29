@@ -1,0 +1,64 @@
+/*DOCUMENTO CSS*/
+
+* { margin: 0; 
+    padding: 0;
+    border-spacing: 0px; }
+
+header, div, nav {  }
+
+body { font-family: "Hind Siliguri", sans-serif; }
+
+h1 {  }
+
+h2 {  }
+
+/*Layout*/
+
+.cabecera {width: 100%;
+            min-height: 1px;
+            background: rgba(225, 169, 202, 0.778); }
+
+.bar { width: 100%;
+        min-height: 1px; }
+
+.logo { text-align: center;
+        font-size: 3em;
+        padding: 8px 0px; }
+
+.menu { width: 100%;
+        min-height: 1px; }
+
+.links { width: 100%;
+        min-height: 1px;
+        background: whitesmoke;
+
+        display: flex; }
+
+.items { width: 25%;
+        min-height: 30px;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.335);
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        font-size: 0.7em;
+        font-weight: 500; }
+
+.items:active { background: rgba(128, 128, 128, 0.266);
+                color: whitesmoke; }
+
+@media only screen and ( min-width: 1024px ) {
+
+        .links { width: 70%;
+                margin: auto; }
+
+        .items:first-child { border-top-left-radius: 20px;
+                                border-bottom-right-radius: 20px; }
+
+        .item:last-child { border-top-left-radius: 20px;
+                        border-bottom-right-radius: 20px; }
+
+        .links { position: relative;
+                top: 12px; }
+ 
+    }
