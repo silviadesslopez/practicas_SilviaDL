@@ -1,0 +1,40 @@
+* { margin: 0; 
+    padding: 0; }
+
+body { padding-left: 30px; 
+        padding-right: 30px;
+        background-color: rgb(10, 7, 19); }
+
+h1, h2, .text, footer, li, .text1 { color: white; }
+
+h1 { padding: 20px 0px; }
+
+h2 { background-color: rgb(113, 42, 228);
+    border-radius: 10px; }
+
+section, div { box-sizing: border-box; }
+
+.container, .container2, .container3, .container4, .container5 { display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            padding-bottom: 40px; }
+
+.image { width: 250px; 
+        height: auto; 
+        border-radius: 8px; }
+
+.text { flex: 1;  }
+
+.text p { padding: 5px; } 
+
+.text1 { text-align: center; }
+
+.tabc { background-color: rgb(113, 42, 228); }
+
+li { padding-left: 20px;
+    padding-top: 5px; }
+
+footer { text-align: center;
+        padding-top: 40px; }
